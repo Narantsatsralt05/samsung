@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 0 8px;
+}
+
+button {
+    border: none;
+}
+
+.header {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.first-part-header {
+    display: flex;
+    align-items: center;
+}
+
+.extend-menu {
+    display: none;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu:hover {
+    background-color: black;
+}
+
+.menu:hover .extend-menu {
+    display: block;
+    position: absolute;
+}
+
+.logo {
+    margin-right: 64px;
+}
+
+.second-part-header {
+    display: flex;
+    align-items: center;
+
+}
+
+.feature-menu {
+    display: flex;
+    list-style: none;
+}
+
+.discover-menu {
+    display: flex;
+    list-style: none;
+}
+
+.icons-container {
+    margin-left: 28px;
+}
+
+.icons-container>img {
+    padding: 7.4px;
+}
+
+.hero-section {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.feature-section {
+    max-width: 1416px;
+    margin: auto;
+}
+
+.feature-section-title-container {
+    text-align: center;
+}
+
+.feature-titles {
+    text-align: center;
+}
+
+.feature-rows-container {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.first-row {
+    display: flex;
+    gap: 24px;
+}
+
+.second-row {
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    width: 33.33%;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card>img {
+    mix-blend-mode: multiply;
+}
+
+
+
+.banner-section {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.banner-text-container {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 88px;
+}
+
+.banner-text-container > * {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.banner-text-container > button {
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.banner-text-container > button > img {
+    margin-left: 8px;
+}
+
+.sustainability-section {
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.text-container {
+    padding: 24px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.text2 > button {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 24px 11px 24px;
+}
